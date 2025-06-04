@@ -1,5 +1,15 @@
-# Ignorer les fichiers .DS_Store dans tout le projet
-*.DS_Store
+# Fichiers système
+.DS_Store
+*.swp
 
-# Spécifiquement dans le dossier ACP
+# Checkpoints et caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Répertoires d'IDE
+.vscode/
+.idea/
+
+# Spécifique à ton projet
 ACP/.DS_Store
