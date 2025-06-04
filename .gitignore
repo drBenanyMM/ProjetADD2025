@@ -1,0 +1,5 @@
+# Ignorer les fichiers .DS_Store dans tout le projet
+*.DS_Store
+
+# Spécifiquement dans le dossier ACP
+ACP/.DS_Store
